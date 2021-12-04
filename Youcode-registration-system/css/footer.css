@@ -1,0 +1,51 @@
+.section-padding {
+	padding: 60px 0;
+}
+.bottom {
+    background-color: #428bca;
+}
+.copyright a {
+    color: rgb(0, 0, 0);
+    margin-left: 3px;
+    padding-right: 3px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright p span {
+    color: #ffffff;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #ffffff;
+}
+li{
+    list-style-type: none;
+    background-color: white;
+    border-radius: 45px;
+    width: 50px;
+    color: #ffffff;
+    height: 50px;
+    margin-left: 7px;
+}
+.fa{
+    margin-top: 10px;
+}
+.fa-google{
+    color: rgb(233, 3, 3);
+}.fa-twitter{
+    color: rgb(0, 88, 160);
+}.fa-linkedin{
+    color: rgb(49, 49, 170);
+}.fa-facebook{
+    color: rgb(0, 119, 255);
+}.fa-instagram{
+    color: rgb(250, 99, 39);
+}
+ul{
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+}

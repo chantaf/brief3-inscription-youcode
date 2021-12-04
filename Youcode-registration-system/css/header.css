@@ -1,0 +1,64 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto';
+}
+
+header{
+    background-image: url("../asset/l") ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-repeat: round;
+}
+
+img{
+    height: 50px !important;
+
+}
+
+.container-home{
+    height: 100vh;
+    background-image: url("../asset/5bec3b950498f.jpg");
+    background-color: rgba(72, 161, 212, 0.438);
+    background-blend-mode: lighten;
+}
+
+.header-content{
+    margin-top: 18%;
+}
+.header-content h1{
+    font-size: xx-large;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.decouvrir-lecole{
+    background-color: white;
+    color: #428bca;
+    padding: 14px;
+    border-radius: 45px;
+    font-weight: 700;
+    margin-top: 20%;
+}.decouvrir-lecole:hover{
+    border: 3px solid;
+    background: #9acd3200;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+}
+.signin{
+    border: 3px solid;
+    background: #9acd3200;
+    font-size: medium;
+    border-color: white;
+    color: white;
+    border-radius: 45px;
+    padding: 9px 20px 9px 20px;
+}.signin:hover{
+    background-color: white;
+    color: #428bca;
+}

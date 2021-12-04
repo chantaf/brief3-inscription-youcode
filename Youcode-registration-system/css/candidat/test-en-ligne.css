@@ -1,0 +1,79 @@
+body {
+	background: #eee;
+}
+
+.wrapper {
+	width: 600px;
+	height: 500px;
+	background: #fff;
+	margin: 50px auto;
+	border: 5px solid rgba(1, 97, 161, 0.993);
+	padding: 20px 50px 50px 50px;
+}
+
+.wrapper h1 {
+	text-align: center;
+	font-family: sans-serif;
+	background: rgba(1, 97, 161, 0.993);;
+	color: #fff;
+	padding: 3px;
+	border-radius: 5px;
+
+}
+
+.wrapper #question {
+	font-family: sans-serif;
+	font-size: 30px;
+	color:#fcfcfc;
+}
+
+.buttons {
+	margin-top: 30px;
+    margin-left: 16px;
+}
+
+#btn0,#btn1,#btn2,#btn3 {
+	background-color: rgba(1, 97, 161, 0.993);;
+	width: 250px;
+	font-size: 20px;
+	color: #fff;
+	border: 1px solid #1d3c6a;
+	padding: 10px;
+	margin: 10px 40px 10px 0;
+	border-radius: 50px;
+    font-weight: 500;
+	
+}
+#btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover {
+	background: rgb(0, 70, 128);
+	cursor: pointer;
+}
+
+#btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus {
+	outline:0;
+}
+
+#progress {
+	font-size: 18px;
+	color: #2f2f2f;
+}
+
+.progress-number {
+	padding: 2px;
+	border: 1px solid #fff;
+	background-color: rgb(0, 85, 182);
+	height: 25px;
+	width: 25px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff; 
+	display: inline-block;
+}
+.qst{
+	display: none;
+}
+
+.qst.active{
+	display: block;
+}

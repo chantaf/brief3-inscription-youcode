@@ -1,0 +1,227 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "nom": "admin",
+      "prenom": "admin",
+      "email": "admin@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "formateur": [
+    {
+      "nom": "ve;",
+      "prenom": "kjh",
+      "cin": "lkj",
+      "tel": "lkj",
+      "email": "dd@gmail.com",
+      "password": "lkj",
+      "id": 5
+    },
+    {
+      "nom": "kjh",
+      "prenom": "kjh",
+      "cin": "lll",
+      "tel": "kjh",
+      "email": "kjhkjjjjjjjjjjjjjjjjjjjkj@gmail.eom",
+      "password": "kjh",
+      "id": 6
+    },
+    {
+      "nom": "kjh",
+      "prenom": "kjh",
+      "cin": "HH222",
+      "tel": "kjh",
+      "email": "kj@gmail.eom",
+      "password": "kjh",
+      "id": 7
+    },
+    {
+      "nom": "ve;",
+      "prenom": "kjh",
+      "cin": "kjhs",
+      "tel": "kjh",
+      "email": "hdiusqzef@gmail.com",
+      "password": "lkj",
+      "id": 8
+    },
+    {
+      "nom": "ve;",
+      "prenom": "ve;",
+      "cin": "kjh",
+      "tel": "r",
+      "email": "hdiuqzef@gmail.com",
+      "password": "rr",
+      "id": 9
+    },
+    {
+      "nom": "ve;",
+      "prenom": "ve;",
+      "cin": "kkkkkkk",
+      "tel": "lplp",
+      "email": "hdiuqzjjjef@gmail.com",
+      "password": "lj",
+      "id": 10
+    },
+    {
+      "nom": "",
+      "prenom": "",
+      "cin": "",
+      "tel": "",
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "nom": "lssssssssssss",
+      "prenom": "",
+      "cin": "lsssssssssssssss",
+      "tel": "",
+      "email": "ldddddddddddd",
+      "password": "",
+      "id": 12
+    }
+  ],
+  "condidat": [
+    {
+      "nom": "nori",
+      "prenom": "ayoub",
+      "cin": "hh1234",
+      "tel": "0777882299",
+      "datenaissance": "02/05/1997",
+      "email": "ayoub@gmail.com",
+      "password": "1234567",
+      "id": 10
+    }
+  ],
+  "apprenant": [
+    {
+      "nom": "nori",
+      "prenom": "ayoub",
+      "cin": "hh12343311",
+      "tel": "0777882299",
+      "email": "ayoub@gmail.com",
+      "password": "1234567",
+      "id": 10
+    }
+  ],
+  "staff": [
+    {
+      "nom": "jhkjhaa",
+      "prenom": "jhkjh",
+      "cin": "zzz",
+      "tel": "aaa",
+      "email": "hdiuqzef@gmail.com",
+      "password": "zzz",
+      "id": 5
+    }
+  ],
+  "questions": [
+    {
+      "type": "technique",
+      "point": "2",
+      "nom": "app 1",
+      "repenses": [
+        {
+          "repense": "fg1",
+          "status": "false"
+        },
+        {
+          "repense": "fg2",
+          "status": "false"
+        },
+        {
+          "repense": "fg3",
+          "status": "true"
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "type": "technique",
+      "point": "1",
+      "nom": "app 222",
+      "repenses": [
+        {
+          "repense": "aaa",
+          "status": "true"
+        },
+        {
+          "repense": "loiuytr",
+          "status": "false"
+        }
+      ],
+      "id": "2"
+    }
+  ],
+  "test": [
+    {
+      "type": "technique",
+      "nom": "test12",
+      "datedebut": "2021-12-06",
+      "datefin": "2021-12-10",
+      "afficherresult": "false",
+      "scoore": 2,
+      "questions": [
+        {
+          "idquestions": "1"
+        },
+        {
+          "idquestions": "2"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "type": "technique",
+      "nom": "test12",
+      "datedebut": "2021-12-06",
+      "datefin": "2021-12-10",
+      "afficherresult": "false",
+      "scoore": 2,
+      "questions": [
+        {
+          "idquestions": "1"
+        },
+        {
+          "idquestions": "2"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "type": "technique",
+      "nom": "test12",
+      "datedebut": "2021-12-06",
+      "datefin": "2021-12-10",
+      "afficherresult": "false",
+      "scoore": 2,
+      "questions": [
+        {
+          "idquestions": "1"
+        },
+        {
+          "idquestions": "2"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "type": "technique",
+      "nom": "jsjsjjsjs",
+      "datedebut": "2021-12-06",
+      "datefin": "2021-12-18",
+      "afficherresult": "false",
+      "scoore": 2,
+      "questions": [
+        {
+          "idquestions": "1"
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "result": [
+   
+  ]
+}

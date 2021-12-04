@@ -1,0 +1,50 @@
+.btnregister {
+    background-color: #049ED2;
+}
+
+.btnregister:hover {
+    background-color: #004E6A;
+}
+
+.btnprecedent{
+    background-color: #049ED2;
+    width: 250px;
+    float: right;
+    margin-left: 85px; 
+    pointer-events: none;
+
+}
+
+.btnprecedent:hover{
+    background-color: #004E6A;
+}
+.btnsuivant{
+    background-color: #049ED2;
+    width: 250px;
+    float: left;
+    margin-left: 128px;
+
+   
+}
+
+.btnsuivant:hover{
+    background-color: #004E6A;
+}
+
+
+
+.formcontainer{
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.btnvalider{
+    background-color:#10B981 ;
+    width: 700px;
+    pointer-events: none;
+    
+}
+
+.btnvalider:hover{
+    background-color:#129c6e ;
+}

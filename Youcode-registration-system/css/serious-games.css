@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #f7f7f7;
+}
+.header-page-sg {
+  background-image: url(../asset/cta-bg.jpg);
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  /* position: relative; */
+}
+.header-page-sg h1 {
+  color: white;
+  padding-top: 40vh;
+  text-align: center;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card-presentation {
+  /* display: flex; */
+
+  width: 40vw;
+  height: 30vh;
+  /* color: white; */
+  background-color: white;
+  box-shadow: 3px 5px 5px rgb(124, 124, 124);
+  margin-bottom: 100px;
+  text-align: center;
+}
+.card-presentation h4 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #058dfe;
+}
+.form-floating {
+  /* height: 40vh; */
+  margin-bottom: 50px;
+}
+.form-control {
+  height: 300px !important;
+}
+button {
+  border-radius: 100px !important;
+}

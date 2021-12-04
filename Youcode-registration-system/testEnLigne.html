@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test en ligne</title>
+    <link rel="stylesheet" href="./css/candidat/test-en-ligne.css">
+</head>
+<body>
+    <div class="wrapper">
+		<div id="quiz">
+			<h1>Quiz Test En ligne</h1>
+			<hr style="margin-bottom: 30px;">
+			<p id="question" style="color: black;"></p> <!--populating question through javascript in p element-->
+
+			<div class="buttons" id="divrep"> <!--Creating four button element for four options-->
+				<!-- <button id="btn0"><span id="choice0">l</span></button> 
+				<button id="btn1"><span id="choice1">a</span></button>
+				<button id="btn2"><span id="choice2">s</span></button>
+				<button id="btn3"><span id="choice3">p</span></button> -->
+			</div>
+			<hr style="margin-top: 60px;">
+			<footer>
+				<p id="progress">
+                    
+                </p> 
+			</footer>
+		</div>
+	</div>
+	
+	<script src="./js/actionaffichetest.js" type="module"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/admin.css" />
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom"><img src="../asset/logo-youcode-ma.png" alt="" height="50px" ></div>
+            <div class="list-group list-group-flush my-3">
+                <a href="./dashboard.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold ">
+                    <i class="fas fa-home me-2"></i>Accueil</a>
+                <a href="./test_en_ligne.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold "><i
+                        class="fas fa-project-diagram me-2"></i>Test en ligne</a>
+                <a href="./sourcing.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="fas fa-paperclip me-2"></i>Sourcing</a>
+                <a href="./formateur.html" class="list-group-item list-group-item-action bg-transparent second-text active"><i
+                        class="fas fa-chalkboard-teacher me-2"></i>Formateur</a>
+                <a href="./staff.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="fas fa-user-shield me-2"></i>Responsable</a>
+                        <a href="./question.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                            class="fas fa-comment-dots me-2"></i>Question</a>
+                    <a href="./test.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold "><i
+                        class="fas fa-comment-dots me-2"></i>Test</a>
+                    <a href="./candidatList.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="fas fa-comment-dots me-2"></i>Liste des candidats</a>
+                    <a href="./appranantlist.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                            class="fas fa-comment-dots me-2"></i>Liste des apprenants</a>
+                        
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
+                <div class="d-flex align-items-center">
+                    <h2 class="fs-2 m-0 text-white">Dashboard</h2>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle second-text fw-bold text-white" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user me-2 "></i>Admin
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Se déconnecter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container-xl">
+                <div class="table-responsive">
+                    <div class="table-wrapper">
+                        <div class="table-title">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h2>List des Formateurs</b></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="table table-striped table-hover" id="idtable">
+                            <thead>
+                                <tr>
+                                    <th>Nom</th>
+                                    <th>Prenom</th>
+                                    <th>Email</th>
+                                    <th>Tel</th>
+                                    <th>CIN</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody >
+                                <form >
+                                    <div id="addEmployeeModal">
+                                        <div class="modal-header ">						
+                                            <h4 class="modal-title">Ajouter un formateur</h4>
+                                        </div>
+                                        <div class="modal-body ">					
+                                            <div class="form-group">
+                                                <label>Nom</label>
+                                                <input type="text" id="nom" class="form-control" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Email</label>
+                                                <input type="email" id="email" class="form-control" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Password</label>
+                                                <input class="form-control" id="password" required>
+                                            </div>   
+                                            <div class="form-group">
+                                                <label>Prenom</label>
+                                                <input type="text" id="prenom" class="form-control" required>
+                                            </div>   
+                                            <input type="text" id="id" class="form-control" hidden>
+
+                                            <div class="form-group">
+                                                <label>CIN</label>
+                                                <input class="form-control" id="cin" required>
+                                            </div>                                    
+                                            <div class="form-group">
+                                                <label>Tel</label>
+                                                <input type="text" class="form-control" id="tel" required>
+                                            </div>					
+                                        </div>
+                                        <div class="modal-footer">
+                                            <input type="submit" class="btn btn-success"  id="ajouterf" value="Add">
+                                            <input type="submit" class="updatef btn btn-warning " id="updatef"  value="update">
+                                        </div>
+                                    </div>
+                                </form>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <script src="./js/action.js" type="module"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

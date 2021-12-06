@@ -33,7 +33,7 @@
       "cin": "HH222",
       "tel": "kjh",
       "email": "kj@gmail.eom",
-      "password": "kjh",
+      "password": "kjhddd",
       "id": 7
     },
     {
@@ -62,36 +62,38 @@
       "email": "hdiuqzjjjef@gmail.com",
       "password": "lj",
       "id": 10
-    },
-    {
-      "nom": "",
-      "prenom": "",
-      "cin": "",
-      "tel": "",
-      "email": "",
-      "password": "",
-      "id": 11
-    },
-    {
-      "nom": "lssssssssssss",
-      "prenom": "",
-      "cin": "lsssssssssssssss",
-      "tel": "",
-      "email": "ldddddddddddd",
-      "password": "",
-      "id": 12
     }
   ],
   "condidat": [
     {
-      "nom": "nori",
-      "prenom": "ayoub",
-      "cin": "hh1234",
+      "nom": "kjhkjh",
+      "prenom": "kjh",
+      "cin": "dd",
+      "tel": "lkklk",
+      "datenaissance": "31/03/1999",
+      "email": "a@gmail.com",
+      "password": "7w6mfotddsss",
+      "id": 1
+    },
+    {
+      "nom": "jhkhj",
+      "prenom": "kh",
+      "cin": "hh",
+      "tel": "0909",
+      "datenaissance": "22/02/1999",
+      "email": "badr@gmail.com",
+      "password": "13g6hihh",
+      "id": 2
+    },
+    {
+      "nom": "ksks",
+      "prenom": "ksksk",
+      "cin": "hh123",
       "tel": "0777882299",
-      "datenaissance": "02/05/1997",
-      "email": "ayoub@gmail.com",
-      "password": "1234567",
-      "id": 10
+      "datenaissance": "15/01/1998",
+      "email": "kskkskk@gmail.com",
+      "password": "x4126chh123",
+      "id": 3
     }
   ],
   "apprenant": [
@@ -102,7 +104,43 @@
       "tel": "0777882299",
       "email": "ayoub@gmail.com",
       "password": "1234567",
-      "id": 10
+      "id": 1
+    },
+    {
+      "nom": "kjhkjh",
+      "prenom": "kjh",
+      "cin": "dd",
+      "tel": "lkklk",
+      "email": "a@gmail.com",
+      "password": "7w6mfotddsss",
+      "id": 2
+    },
+    {
+      "nom": "kjhkjh",
+      "prenom": "kjh",
+      "cin": "dd",
+      "tel": "lkklk",
+      "email": "a@gmail.com",
+      "password": "7w6mfotddsss",
+      "id": 3
+    },
+    {
+      "nom": "kjhkjh",
+      "prenom": "kjh",
+      "cin": "dd",
+      "tel": "lkklk",
+      "email": "a@gmail.com",
+      "password": "7w6mfotddsss",
+      "id": 4
+    },
+    {
+      "nom": "kjhkjh",
+      "prenom": "kjh",
+      "cin": "dd",
+      "tel": "lkklk",
+      "email": "a@gmail.com",
+      "password": "7w6mfotddsss",
+      "id": 5
     }
   ],
   "staff": [
@@ -118,110 +156,338 @@
   ],
   "questions": [
     {
-      "type": "technique",
-      "point": "2",
-      "nom": "app 1",
+      "type": "test-en-ligne",
+      "point": "1",
+      "nom": "What does HTML stand for?",
       "repenses": [
         {
-          "repense": "fg1",
+          "repense": "Hyper Text Preprocessor",
           "status": "false"
         },
         {
-          "repense": "fg2",
-          "status": "false"
-        },
-        {
-          "repense": "fg3",
+          "repense": "Hyper Text Markup Language",
           "status": "true"
+        },
+        {
+          "repense": "Hyper Text Multiple Language",
+          "status": "false"
+        },
+        {
+          "repense": "Hyper Tool Multi Language",
+          "status": "false"
         }
       ],
-      "id": "1"
+      "id": 1
     },
     {
-      "type": "technique",
+      "type": "test-en-ligne",
       "point": "1",
-      "nom": "app 222",
+      "nom": "What does CSS stand for?",
       "repenses": [
         {
-          "repense": "aaa",
+          "repense": "Cascading Style Sheet",
           "status": "true"
         },
         {
-          "repense": "loiuytr",
+          "repense": "Computer Style Sheet",
+          "status": "false"
+        },
+        {
+          "repense": "Common Style Sheet",
+          "status": "false"
+        },
+        {
+          "repense": "Colorful Style Sheet",
           "status": "false"
         }
       ],
-      "id": "2"
+      "id": 2
+    },
+    {
+      "type": "test-en-ligne",
+      "point": "1",
+      "nom": "What does PHP stand for?",
+      "repenses": [
+        {
+          "repense": "Hypertext Preprocessor",
+          "status": "false"
+        },
+        {
+          "repense": "Hypertext Programming",
+          "status": "true"
+        },
+        {
+          "repense": "Hypertext Preprogramming",
+          "status": "false"
+        },
+        {
+          "repense": "Hometext Preprocessor",
+          "status": "false"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "type": "test-en-ligne",
+      "point": "1",
+      "nom": "What does SQL stand for?",
+      "repenses": [
+        {
+          "repense": "Stylish Question Language",
+          "status": "false"
+        },
+        {
+          "repense": "Stylesheet Query Language",
+          "status": "false"
+        },
+        {
+          "repense": "Statement Question Language",
+          "status": "false"
+        },
+        {
+          "repense": "Structured Query Language",
+          "status": "true"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "type": "test-en-ligne",
+      "point": "1",
+      "nom": "What does XML stand for?",
+      "repenses": [
+        {
+          "repense": "eXtensible Markup Language",
+          "status": "true"
+        },
+        {
+          "repense": "eXecutable Multiple Language",
+          "status": "false"
+        },
+        {
+          "repense": "eXTra Multi-Program Language",
+          "status": "false"
+        },
+        {
+          "repense": "eXamine Multiple Language",
+          "status": "false"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "type": "serious game",
+      "point": "7",
+      "nom": "Comment commercialiser un produit?",
+      "repenses": [
+        {
+          "repense": "hey",
+          "status": "true"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "type": "motivation",
+      "point": "3",
+      "nom": "presentez-vous",
+      "repenses": [
+        {
+          "repense": "a",
+          "status": "true"
+        }
+      ],
+      "id": 8
     }
   ],
   "test": [
     {
-      "type": "technique",
-      "nom": "test12",
-      "datedebut": "2021-12-06",
-      "datefin": "2021-12-10",
-      "afficherresult": "false",
-      "scoore": 2,
+      "type": "test-en-ligne",
+      "nom": "ljkkk",
+      "datedebut": "",
+      "datefin": "",
+      "afficherresult": "",
+      "scoore": 4,
       "questions": [
         {
           "idquestions": "1"
         },
         {
           "idquestions": "2"
+        },
+        {
+          "idquestions": "3"
+        },
+        {
+          "idquestions": "4"
         }
       ],
       "id": 1
     },
     {
       "type": "technique",
-      "nom": "test12",
-      "datedebut": "2021-12-06",
-      "datefin": "2021-12-10",
-      "afficherresult": "false",
-      "scoore": 2,
+      "nom": "ikikk",
+      "datedebut": "",
+      "datefin": "",
+      "afficherresult": "",
+      "scoore": 4,
       "questions": [
         {
           "idquestions": "1"
         },
         {
           "idquestions": "2"
+        },
+        {
+          "idquestions": "3"
+        },
+        {
+          "idquestions": "4"
         }
       ],
       "id": 2
     },
     {
-      "type": "technique",
-      "nom": "test12",
-      "datedebut": "2021-12-06",
-      "datefin": "2021-12-10",
-      "afficherresult": "false",
-      "scoore": 2,
+      "type": "serious game",
+      "nom": "llkjkl",
+      "datedebut": "",
+      "datefin": "",
+      "afficherresult": "",
+      "scoore": 5,
       "questions": [
         {
-          "idquestions": "1"
-        },
-        {
-          "idquestions": "2"
+          "idquestions": "7"
         }
       ],
       "id": 3
     },
     {
-      "type": "technique",
-      "nom": "jsjsjjsjs",
-      "datedebut": "2021-12-06",
-      "datefin": "2021-12-18",
-      "afficherresult": "false",
-      "scoore": 2,
+      "type": "motivation",
+      "nom": "hjjj",
+      "datedebut": "",
+      "datefin": "",
+      "afficherresult": "",
+      "scoore": 5,
       "questions": [
         {
-          "idquestions": "1"
+          "idquestions": "6"
         }
       ],
       "id": 4
+    },
+    {
+      "type": "motivation",
+      "nom": "kkkk",
+      "datedebut": "",
+      "datefin": "",
+      "afficherresult": "",
+      "scoore": 3,
+      "questions": [
+        {
+          "idquestions": "8"
+        }
+      ],
+      "id": 5
     }
   ],
   "result": [
-   
+    {
+      "idtest": 1,
+      "idcondidat": [
+        {
+          "role": "candidat",
+          "nom": "kjhkjh",
+          "prenom": "kjh",
+          "email": "a@gmail.com",
+          "id": 1
+        }
+      ],
+      "scoore": 1,
+      "id": 1
+    },
+    {
+      "idtest": 1,
+      "idcondidat": [
+        {
+          "role": "candidat",
+          "nom": "kjhkjh",
+          "prenom": "kjh",
+          "email": "a@gmail.com",
+          "id": 1
+        }
+      ],
+      "scoore": 4,
+      "id": 2
+    },
+    {
+      "idtest": 2,
+      "idcondidat": [
+        {
+          "role": "candidat",
+          "nom": "kjhkjh",
+          "prenom": "kjh",
+          "email": "a@gmail.com",
+          "id": 1
+        }
+      ],
+      "scoore": 1,
+      "id": 3
+    },
+    {
+      "idtest": 3,
+      "idcondidat": [
+        {
+          "role": "candidat",
+          "nom": "kjhkjh",
+          "prenom": "kjh",
+          "email": "a@gmail.com",
+          "id": 1
+        }
+      ],
+      "scoore": 0,
+      "id": 8
+    },
+    {
+      "idtest": 5,
+      "idcondidat": [
+        {
+          "role": "candidat",
+          "nom": "kjhkjh",
+          "prenom": "kjh",
+          "email": "a@gmail.com",
+          "id": 1
+        }
+      ],
+      "scoore": 0,
+      "id": 9
+    },
+    {
+      "idtest": 1,
+      "idcondidat": [
+        {
+          "role": "candidat",
+          "nom": "ksks",
+          "prenom": "ksksk",
+          "email": "kskkskk@gmail.com",
+          "id": 3
+        }
+      ],
+      "scoore": 0,
+      "id": 10
+    },
+    {
+      "idtest": 1,
+      "idcondidat": [
+        {
+          "role": "candidat",
+          "nom": "ksks",
+          "prenom": "ksksk",
+          "email": "kskkskk@gmail.com",
+          "id": 3
+        }
+      ],
+      "scoore": 1,
+      "id": 11
+    }
   ]
 }

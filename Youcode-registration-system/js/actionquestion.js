@@ -1,7 +1,6 @@
 import {question} from "./useClasse.js";
 
 let array=[];
-
 //ajouterrepense
 document.querySelector("#plusrepense").addEventListener("click",()=>{
 
@@ -46,6 +45,7 @@ document.querySelector("#ajouterq").addEventListener("click",()=>{
 document.querySelector("#type").addEventListener("change",async()=>{
     let table=document.getElementById("idtable");
     let types=document.getElementById("type");
+    // let type = types.options[types.selectedIndex].value;
     let type = types.options[types.selectedIndex].value;
 
     console.log(type);
@@ -125,11 +125,9 @@ const ModifieFunction = () =>{
                                 <option value="true">true</option>
                                 <option value="false">false</option>
                                 </select> 
-                            </div>
-                        `
+                            </div>`
                     });
                 }
-                
             })
         });
 }

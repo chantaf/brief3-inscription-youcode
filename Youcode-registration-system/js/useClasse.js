@@ -241,7 +241,7 @@ export  class result{
     scoore;
 
 
-    constructor (idt,idc,scoore,condidat)
+    constructor (idt,idc,scoore)
     {
             this.idtest=idt;
             this.idcondidat=idc;
@@ -264,7 +264,4 @@ export  class result{
           }
         axios.post(`${url}/result`,data);
     }
-
-
 }
-

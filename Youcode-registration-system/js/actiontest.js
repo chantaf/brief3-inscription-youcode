@@ -12,24 +12,21 @@ document.querySelector("#type").addEventListener("change",async()=>{
 
     let quest=new question();
     let dataquestion=await quest.afficherallquestion();
-    
         dataquestion.data.forEach(element => {
-    
             if(element.type==type){
                 let re = '';
                     element.repenses.forEach(element => {
                         re += `<p>repense:${element.repense} status:${element.status}</p>`;
-                    });
-    
-            
-            table.innerHTML+=`
+            });
+            table.innerHTML+=
+            `
             <tr>
                 <td>${element.type}</td>
                 <td>${element.point}</td>
                 <td>${element.nom}</td>
                 <td>${re}</td>
                 <td>
-                   <input type="checkbox" name="choix"data-point="${element.point}" data-type="${element.id}" required/>
+                   <input type="checkbox" name="choix" data-point="${element.point}" data-type="${element.id}" required/>
                 </td>
             </tr>
             `
@@ -73,12 +70,9 @@ document.querySelector("#ajoutert").addEventListener("click",()=>{
             array.push({
                 idquestions:element.getAttribute('data-type')
             });
-            scoore=parseInt(scoore)+ parseInt(element.getAttribute('data-point'));
-            
+            scoore=parseInt(scoore)+ parseInt(element.getAttribute('data-point'));   
         }
-    });
-
-        
+    }); 
             let teste=new test();
             teste=new test(type,nom,dated,datef,affres,scoore,array);
             teste.ajoutertest();
@@ -176,7 +170,6 @@ const updateFunction = () =>{
                         idquestions:element.getAttribute('data-type')
                     });
                     scoore=parseInt(scoore)+ parseInt(element.getAttribute('data-point'));
-                    
                 }
             });
         
@@ -184,10 +177,6 @@ const updateFunction = () =>{
             let teste=new test();
             teste=new test(type,nom,dated,datef,affres,scoore,array);
             teste.modifierteste(id); 
-        
         });
-                       
-            
-        });
+    });
 }
-
